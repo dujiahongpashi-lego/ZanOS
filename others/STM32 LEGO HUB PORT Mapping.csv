@@ -1,0 +1,13 @@
+Port A,Port B,Port C,Port D,Port E,Port F,,,
+UART7,UART4,UART8,UART5,UART10,UART9,,,
+D7,D9,D11,C15,C13,C11,p5,GPIO,
+D8,D10,E4,C14,E12,E6,p6,GPIO,
+A10,A8,E5,B2,B5,C5,BUF_EN,default on,使用P5 P6 GPIO时必须关(set 1 for off)
+E8,D0,E0,D2,E2,D14,RX,p6,
+E7,D1,E1,C12,E3,D15,TX,p5,
+E9,E13,B6,B8,C6,C8,M1,default off,
+E11,E14,B7,B9,C7,B1,M2,default off,
+-,-,-,-,E10,E15,RTS,default off,RS485
+,,,,,,,,
+A14,A14,A14,A14,A14,A14,PORT_3v3_EN,default on,
+A13,A13,A13,A13,A13,A13,BAT_PWR_EN,default off,

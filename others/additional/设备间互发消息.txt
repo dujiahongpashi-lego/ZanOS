@@ -1,0 +1,23 @@
+主机向设备发送SCOPE：(动词)
+CONNECT_WIFI 
+{ssid, password}
+
+ASK_WIFI_STATUS
+''
+
+REQ_HTTP
+{url,label}
+
+
+设备向主机回复SCOPE：(名词)(消息带自定义后缀便于主机校验消息完整性)
+WIFI_STATUS
+{ssid, status:'online/off-line'}
+
+HTTP_RESPONSE
+{label, response}
+
+KEYBOARD_STATUS
+'READY/MISS'
+
+KEY_PRESSED
+key

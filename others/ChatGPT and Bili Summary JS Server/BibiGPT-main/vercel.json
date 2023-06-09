@@ -1,0 +1,52 @@
+{
+  "github": {
+    "silent": true
+  },
+  "redirects": [
+    {
+      "source": "/ios",
+      "destination": "https://www.icloud.com/shortcuts/7ea55296c4c04b4c9ad7ccb6142df57f",
+      "permanent": true
+    },
+    {
+      "source": "/f",
+      "destination": "https://jimmylv.feishu.cn/share/base/form/shrcn9PwPzGGGiJCnH0JNfM1P3b",
+      "permanent": true
+    },
+    {
+      "source": "/f-g",
+      "destination": "https://github.com/JimmyLv/BibiGPT/issues",
+      "permanent": true
+    },
+    {
+      "source": "/f-v",
+      "destination": "https://vercel.com/jimmylv/chat-bilibili-video/analytics/audience",
+      "permanent": true
+    },
+    {
+      "source": "/f-r",
+      "destination": "https://console.upstash.com/redis/c73974bc-9629-486f-b66e-1031566617fb?tab=usage",
+      "permanent": true
+    },
+    {
+      "source": "/privacy",
+      "destination": "https://github.com/JimmyLv/BibiGPT/wiki/%E9%9A%90%E7%A7%81%E5%A3%B0%E6%98%8E",
+      "permanent": true
+    },
+    {
+      "source": "/terms-of-use",
+      "destination": "https://github.com/JimmyLv/BibiGPT/wiki/Terms-Of-Use",
+      "permanent": true
+    },
+    {
+      "source": "/status",
+      "destination": "https://github.com/JimmyLv/BibiGPT",
+      "permanent": true
+    },
+    {
+      "source": "/release",
+      "destination": "https://github.com/JimmyLv/BibiGPT/releases",
+      "permanent": true
+    }
+  ]
+}
